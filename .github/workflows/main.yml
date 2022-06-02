@@ -15,7 +15,7 @@ jobs:
           cordova-version: 8
       - name: Build
         run: |
-          npm install cordova-android@latest
+          npm install cordova-android@9.1.0
       - name: Run
         run: |
           ionic cordova platform add android --verbose
